@@ -1,0 +1,28 @@
+@media ( max-width: 500px ) {
+	.section1 {
+			display: inline-block;
+			float:left;
+			width:100%;
+			background-color: white;			
+		}	
+		
+	.section2 {
+		display: inline-block;
+		float:left;
+		width:100%;
+		background-color:white;	
+	}
+	.nuliai > h1 {				
+			font-size: 64px;
+	}
+}
+@media ( max-width: 400px ) {
+	.nuliai > h1 {				
+				font-size: 48px;
+			}
+}
+@media ( max-width: 300px ) {
+	.nuliai > h1 {				
+				font-size: 36px;
+			}
+}

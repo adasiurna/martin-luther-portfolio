@@ -1,0 +1,266 @@
+body,
+		body * {
+			margin: 0;
+			padding: 0;			
+		}
+		body {
+			display: inline-block;
+			float: left;
+			width: 100%;
+			background-color: white;		
+		}
+		.middle {
+			display: inline-block;
+			float: left;
+			width: 100%;
+			background-color: white;
+		}				
+		aside {
+			display: inline-block;
+			width: 0%;
+			float: left;
+			background-color: white;
+			height: 1000px;
+		}		
+		header {
+			display: inline-block;
+			width:100%;
+			float: left;			
+			text-align: center;	
+			background-image: url("../img/dino.jpg");
+			background-position: 0px 0px;
+			background-attachment: fixed;
+			background-size: cover;
+			margin-top: -10px;			
+		}			
+			header > div > div > p {
+				font-size: 10px;
+				padding: 0;
+				color: white;
+			}
+			header > div > div > h1 {
+				padding-bottom: 0;
+				margin-bottom: 0;
+				color: white;
+				font-size: 84px;
+			}
+			
+			.headerp {
+				color: #4A465B;
+				width: 60%;
+				padding: 0 20%;
+			}
+			.visinuliai {
+				display: inline-block;
+				float: left;
+				width: 50%;
+				margin-bottom: 50px;
+				margin-top: 40px;
+				padding: 0 25%;	
+				
+			}
+			.nuliai {
+				display: inline-block;				
+				color: white;			
+			}
+			
+			.button1 {
+				color:white; 
+				background-color: #004A7F;
+				border:none;
+				padding: 12px 40px;				
+				border-radius: 2px;
+				box-shadow:  0px 5px 3px 0px #488F91;
+				cursor: pointer;
+			}
+			.button1:hover {
+				box-shadow:  0px 5px 3px 0px #555;
+			}
+			
+			.button2 {
+				color:white; 
+				background-color: #004A7F;
+				border:none;
+				padding: 12px 40px;				
+				border-radius: 2px;
+				box-shadow:  0px 5px 3px 0px #88A4A8;
+				cursor: pointer;				
+			}
+			.button2:hover {
+				box-shadow:  0px 5px 3px 0px #555;
+			}
+		section {
+			display: inline-block;
+			width:100%;
+			background-color:white;
+		}		
+		.section1 {
+			display: inline-block;
+			float:left;
+			width:55%;
+			background-color: white;			
+		}	
+		
+		.section2 {
+			display: inline-block;
+			float:left;
+			width:45%;
+			background-color:white;	
+		}
+		.both-sections {
+			display: inline-block; 
+			float: left; 
+			padding: 8vh 8%;
+		}
+		.visicss {
+			display: inline-block; 
+			float:left; 
+			width: 100%;
+		}
+		footer {
+			display: inline-block;
+			width:100%;
+			float: left;
+			background-color: #47A5A5;
+			padding-bottom: 60px;
+			text-align: center;
+			position: relative;
+		}
+		h1 {margin: 10px; font-size: 46px; color: black;}
+		p {color: #888;}
+		
+		.input1 {border: none;
+				border-bottom: 1px solid #B4B4B4;
+				color: white;
+				font-size: 11px;
+				background: inherit;
+				width: 240px;
+		}	
+		input:visited {
+			border: none;
+		}
+		input:active {
+			border: none;
+		}
+		.form1 {padding: 40px;}
+		h2 {
+			font-size: 20px;
+			color: #333;
+			padding-top: 40px;
+			padding-bottom: 40px;
+		}
+		.psection {
+			font-size: 12px;
+			line-height: 1.5;
+			padding-bottom: 12px;
+		}
+		.bar-name {
+			display: inline-block; 
+			float: left; 
+			width: 70%;
+			font-size: 12px;
+			line-height: 1.5;
+		}
+		.bar-proc {
+			display: inline-block; 
+			float: left; 
+			width: 30%; 
+			text-align: right;
+			font-size: 12px;
+			line-height: 1.5;
+		}				
+		.bar-padding {
+			padding-bottom: 27px;
+		}
+		.bar90 {
+			display: inline-block;
+			float: left;
+			height: 5px;
+			background-color: #005796;
+			width: 90%;
+		}
+		.bar10 {
+			display: inline-block;
+			float: left;
+			height: 5px;
+			width: 10%;
+			background-color: #CCC;
+		}
+		.bar86 {
+			display: inline-block;
+			float: left;
+			height: 5px;
+			background-color: #005796;
+			width: 86%;
+		}
+		.bar14 {
+			display: inline-block;
+			float: left;
+			height: 5px;
+			width: 14%;
+			background-color: #CCC;
+		}
+		.form2 {
+			display: inline-block;
+			float: left;
+			width: 100%;
+			padding-bottom: 30px;
+		}
+		.message1 {
+			padding-bottom: 30px;
+			height: 45px;
+		}
+		.input2 {border: none;
+				border-bottom: 1px solid #888;
+				width: 100%;
+				color: #888;
+				font-size: 12px;
+				background: inherit;
+				padding-bottom: 4px;
+				font-family: serif;				
+		}
+		.proc48 {
+			display:inline-block; 
+			float:left; 
+			width:48%;
+		}
+		.proc4 {
+			display:inline-block; 
+			float:left; 
+			width:4%;
+			height: 5px
+		}
+		i {
+			display: inline-block;
+			float: left;
+		}
+		.fa {
+			color:white;
+			padding: 10px;
+			cursor: pointer;
+		}
+		.fa:hover {
+			padding:10px 14px;
+		}
+		footer > span {
+			color: white;
+			font-weight: bold;
+		}
+		footer > p {
+			color: white;
+			font-size: 14px;
+		}
+		
+		.footer-brake {
+			display: inline-block; 
+			width: 90%; 
+			margin: auto; 
+			height: 5px; 
+			border-bottom: 1px solid #89C0BA;
+		}
+		
+		footer > a {
+			text-decoration: none;
+			color: #BCD0DD;
+			cursor: pointer;
+		}
