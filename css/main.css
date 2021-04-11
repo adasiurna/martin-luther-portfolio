@@ -147,6 +147,9 @@ header.juodas {
 		cursor: pointer;
 		transition: all 0.4s;
 	}
+  .hero-button a {
+    color: #fff;
+  }
 		.hero-button:hover{
 			border-radius: 5px;
 		}
@@ -192,6 +195,10 @@ header.juodas {
 				border-radius: 50%;
 				cursor: pointer;
 			}
+      .fab.fa-free-code-camp {
+        font: normal normal normal 30px/1 FontAwesome;
+        vertical-align: bottom;
+      }
 				.about-icons > a > i:hover {
 					background-color: #F34236;
 				}
@@ -228,6 +235,9 @@ header.juodas {
 			cursor: pointer;
 			transition: all 0.4s;
 		}
+    .about-button a {
+      color: #fff;
+    }
 			.about-button:hover {
 				border-radius: 5px;
 			}
@@ -362,6 +372,9 @@ header.juodas {
 			cursor: pointer;
 			transition: all 0.4s;
 	}
+  .available-btn a {
+    color: #333;
+  }
 		.available-btn:hover {
 			border-radius: 5px;
 		}
