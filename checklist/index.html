@@ -1,88 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Checklist | Portfolio</title>
-    <link rel="stylesheet" href="../css/font-awesome.min.css">
-    <link rel="stylesheet" href="../css/main.css">
-	<link rel="stylesheet" href="../css/responsive.css">
-	<style>
-		@media ( min-height: 750px) {
-			.inside-page-area {
-				height: calc(100vh - 208px);
-			}
-		}
-		@media ( max-width: 800px){			
-			#about {
-				height: initial;
-			}
-		}
-	</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Checklist | Portfolio</title>
+  <link rel="stylesheet" href="../css/font-awesome.min.css">
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+  <style>
+    @media (min-height: 750px) {
+      .inside-page-area {
+        height: calc(100vh - 208px);
+      }
+    }
+
+    @media (max-width: 800px) {
+      #about {
+        height: initial;
+      }
+    }
+  </style>
 </head>
+
 <body>
-    <header class="container juodas" style="background-color: #333;">
-        <div class="row">
-            <a style="text-decoration: none;" href="../index.html" id="main_logo">MARTIN LUTHER</a>
-            <nav id="main_nav">
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#services">Services</a>
-                <a href="#resume">Resume</a>
-                <a href="#portfolio">Portfolio</a>
-                <a href="#blog">Blog</a>
-                <a href="#contact">Contact</a>
-            </nav>
+  <header class="container juodas" style="background-color: #333;">
+    <div class="row">
+      <a style="text-decoration: none;" href="../index.html" id="main_logo">MARTIN LUTHER</a>
+      <nav id="main_nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#resume">Resume</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <div id="about" class="container" style="height: calc(100vh - 208px);">
+    <div class="row about-padding">
+      <div class="about-picture">
+        <img src="../img/checklist.jpg" title="this is me">
+      </div>
+      <div class="about-right">
+        <h1 class="about-h1">ABOUT <span>PROJECT</span></h1>
+        <div class="about-hor-bar"></div>
+        <h3 class="about-h3">A small project for current work</h3>
+        <p class="about-p">A small project for a current work. The purpose of this HTML page is to check if a task was
+          done properly. The list contains hot spots where the most mistakes are made. An employee must check all the
+          boxes before closing the task in order to check himself. Reset button resets all the checkboxes for the next
+          task.</p>
+        <p>HTML file contains CSS and JS code so it is easy to share and use for a number of employees.</p>
+        <div class="about-icons">
+          <i class="fa fa-facebook"></i>
+          <i class="fa fa-twitter"></i>
+          <i class="fa fa-instagram"></i>
+          <i class="fa fa-youtube-play"></i>
+          <i class="fa fa-pinterest"></i>
         </div>
-    </header>
-	
-	<div id="about" class="container" style="height: calc(100vh - 208px);">
-		<div class="row about-padding">
-			<div class="about-picture">
-				<img src="../img/checklist.jpg" title="this is me">
-			</div>
-			<div class="about-right">
-				<h1 class="about-h1">ABOUT <span>PROJECT</span></h1>
-				<div class="about-hor-bar"></div>
-				<h3 class="about-h3">A small project for current work</h3>
-				<p class="about-p">A small project for a current work. The purpose of this HTML page is to check if a task was done properly. The list contains hot spots where the most mistakes are made. An employee must check all the boxes before closing the task in order to check himself. Reset button resets all the checkboxes for the next task.</p>
-				<p>HTML file contains CSS and JS code so it is easy to share and use for a number of employees.</p>
-				<div class="about-icons">
-					<i class="fa fa-facebook"></i>
-					<i class="fa fa-twitter"></i>
-					<i class="fa fa-instagram"></i>
-					<i class="fa fa-youtube-play"></i>
-					<i class="fa fa-pinterest"></i>
-				</div>
-				<div>
-				<form style="margin-bottom: 10px;" type="button" onclick="window.open('../checklist/checklist.html')" class="about-button" >SEE A PROJECT</form>
-				<form onClick="location.href='../INDEX.html#portfolio'" class="about-button" type="button" >BACK TO PROJECT LIST</form>
-				</div>
-			</div>
-		</div>
-	</div>
-	
-	<div class="footer">
-		<div id="main_footer">
-			<h4>MARTIN LUTHER</h4>
-			<div class="footer-icons">
-				<i class="fa fa-facebook"></i>
-				<i class="fa fa-twitter"></i>
-				<i class="fa fa-linkedin"></i>
-				<i class="fa fa-pinterest"></i>
-				<i class="fa fa-instagram"></i>
-			</div>
-		</div>
-		
-		<div class="sub-footer">
-			<p>CopyRight &#9400 By Martin Luther 2017-18 | All Rights Reserved.</p>
-		</div>
-	</div>
-	
-    <script src="../js/data.js"></script>
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-    <script src="../js/functions.js"></script>
-    <script src="../js/actions.js"></script>
+        <div>
+          <form style="margin-bottom: 10px;" type="button" onclick="window.open('../checklist/checklist.html')"
+            class="about-button">SEE A PROJECT</form>
+          <form onClick="location.href='../INDEX.html#portfolio'" class="about-button" type="button">BACK TO PROJECT
+            LIST</form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div id="main_footer">
+      <h4>ADA ŠIURNA</h4>
+      <div class="footer-icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-pinterest"></i>
+        <i class="fa fa-instagram"></i>
+      </div>
+    </div>
+
+    <div class="sub-footer">
+      <p>CopyRight &#9400 By Martin Luther 2017-18 | All Rights Reserved.</p>
+    </div>
+  </div>
+
+  <script src="../js/data.js"></script>
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script src="../js/functions.js"></script>
+  <script src="../js/actions.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,137 @@
+
+		body,
+		body * {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			color: #333;
+			font-family: Arial, Helvetica, sans-serif;
+		}
+		
+		body {
+			background-color: steelblue;
+			background-image: linear-gradient(to right, #030A52, #0A690F);
+		}
+			body.container {
+				display: block; width: 100%; float:left;
+			}
+				.container-left {
+					display: inline-block; 
+					float: left; 
+					width: calc(40% - 60px);
+					height: 368px;
+					background-image: url(http://s.tofo.lt/thumbnail/65115a32757841048efb/1024/adai.jpg); 
+					color: white; 
+					margin-left: 60px; 
+					margin-top: 54px;
+					background-repeat: no-repeat;
+				}
+					.container-left > h1 {
+						font-size: 28px; 
+						line-height: 28px;
+						margin: 20px; 
+						font-weight: normal; 
+						
+					}
+					.container-left > h6 {
+						font-size: 12px;
+						line-height: 12px;
+						color: #1a6f3c; 
+						font-weight: 600;
+						margin: 0 0 260px 20px;
+					}
+				.container-right {
+					display: inline-block; 
+					float: left; 
+					width: calc(50% - 60px);
+					height: 400px;
+					background-color: white; 
+					margin-right: 60px;
+					color: black; 	
+					margin-top: 40px;
+					padding: 10px 0;
+				}
+				form > div {
+					display: inline-block;
+					float: left;
+					width: 100%;
+					margin: 15px 15px 0 15px;
+					padding-right: 15px;
+				}
+								
+				form input, p {
+					display: inline-block;
+					float: left;
+					margin-right: 5px;
+				}
+				form input {
+					height: 12px;
+					width: 12px;
+				}
+				form p {
+					font-size: 12px;
+					line-height: 12px;
+					width: 85%;
+				}
+				#reset_button {
+					font-size: 14px;
+					color: white;
+					background-color: #1a6f3c;
+					padding: 8px 25px;
+					display: inline-block;
+					margin: 25px 15px 15px 15px;
+					cursor: pointer;
+					border-radius: 24px;
+					box-shadow: 0 2px 2px rgba(0,0,0,0.4);
+				}
+					#reset_button:active {						
+						transform: translateY(2px);
+					}
+					
+					
+		@media ( max-width: 600px ) {
+			.container-left {
+				display: block;
+				width: 90%;
+				height: 60px;
+				margin: 20px 5% 0 5%;				
+			}
+			.container-left > h6 {
+				display: none;
+			}
+			.container-right {
+				display: block;
+				width: 80%;
+				margin: 0 10%;				
+			}
+		}
+		
+		@media ( max-width: 350px ) {
+				.container-left > h1 {
+						font-size: 22px; 
+						line-height: 24px;
+						margin: 20px; 
+						font-weight: normal; 						
+					}
+			.container-left > h6 {
+				display: none;
+			}
+			.container-right > p {
+				font-size: 9px;
+				line-height: 12px;
+			}
+		}
+		
+		
+		
+		
+		@media ( min-width: 1200px) {
+			.container-left {
+				display: inline-block;
+				width: 415px;			
+			}
+			.container-right {
+				display: inline-block;
+				width: 500px;
+			}
+		}
